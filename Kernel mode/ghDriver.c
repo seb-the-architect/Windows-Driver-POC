@@ -11,7 +11,7 @@ NOTES
 [PG 47]
 The actual CreateFile call made by Process Explorer
 (or any other client) based on the symbolic link must be prepended with \\.\. This is necessary so
-that the object managerís parser will not assume the string ìPROCEXP152î (for example) indicates a file in the
+that the object manager‚Äôs parser will not assume the string ‚ÄúPROCEXP152‚Äù (for example) indicates a file in the
 current directory.
 
 https://googleprojectzero.blogspot.com/2015/10/windows-drivers-are-truely-tricky.html
